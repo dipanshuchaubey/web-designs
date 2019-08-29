@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.heading {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.section1 {
+    background-color: red;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.section2 {
+    background-color: green;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.foot {
+    background-color: orange;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+}

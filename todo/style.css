@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.heading-text {
+    font-family: 'Pacifico';
+    text-align: center;
+    color: grey;
+}
+
+.todo-section {
+    font-family: sans-serif;
+    display: grid;
+    text-align: left;
+    color: rgb(43, 37, 37);
+    padding: 0 200px;
+}
+
+@media only screen and (max-width: 860px) {
+    .todo-section {
+        padding: 0;
+    }
+}
+
+.todo-item {
+    margin: 0;
+    padding: 15px 130px;
+}
+
+@media only screen and (max-width: 860px) {
+    .todo-item {
+        margin: 0;
+        padding: 15px 20px;
+    }
+}
+
+.color1 {
+    background-color: aqua;
+}
+
+.color2 {
+    background-color: rgb(136, 62, 158);
+}
+
+.color3 {
+    background-color: rgb(63, 194, 150);
+}
+
+.color4 {
+    background-color: rgb(197, 158, 49);
+}
+
+.icon {
+    cursor: pointer;
+    color: rgb(224, 87, 87);
+    float: right;
+}
