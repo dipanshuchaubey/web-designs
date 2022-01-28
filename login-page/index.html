@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/utils.css" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div id="main">
+      <div class="content">
+        <h2 class="heading mb-1">Welcome To Application</h2>
+        <p class="sub-heading mt-2 mb-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+          cupiditate veritatis quaerat amet at error voluptates, rem odio
+          aliquam sint, officiis dolorum temporibus commodi, quae rerum?
+          Incidunt eveniet vel sequi
+        </p>
+
+        <img src="./assets/hero-image.png" alt="hero image" />
+      </div>
+
+      <div class="login">
+        <h1>Login to Application</h1>
+
+        <form>
+          <div class="input-control">
+            <label for="email">Email</label>
+            <input type="text" placeholder="enter email" id="email" />
+          </div>
+
+          <div class="input-control">
+            <label for="password">Password</label>
+            <input type="password" placeholder="******" id="password" />
+          </div>
+
+          <button
+            class="btn display-block mt-1 mb-1 shadow-light"
+            type="submit"
+          >
+            Login
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        Copyright &copy; Dipanshu Chaubey <span id="year"></span> | All Rights
+        Reserved
+      </p>
+    </footer>
+  </body>
+
+  <script>
+    const ele = document.getElementById('year')
+
+    ele.innerHTML = new Date().getFullYear()
+  </script>
+</html>

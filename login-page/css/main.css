@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Merriweather+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bebas Neue', cursive;
+}
+
+#main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 94vh;
+}
+
+#main .content {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main .content .heading {
+  font-size: 2.7rem;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 3px;
+  word-spacing: 8px;
+}
+
+#main .content .sub-heading {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  max-width: 80%;
+  line-height: 2rem;
+  word-wrap: break-word;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+#main .content img {
+  width: 50%;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+#main .login {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: #555 2px solid;
+  border-width: 0 0 0 1px;
+}
+
+#main .login h1 {
+  margin: 2rem 0;
+  word-spacing: 6px;
+  letter-spacing: 2px;
+}
+
+footer {
+  height: 6vh;
+  padding: 1rem;
+  word-spacing: 2px;
+  letter-spacing: 1.5px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  #main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+  #main .content {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,100 @@
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.display-block {
+  width: 100%;
+  display: block;
+}
+
+form {
+  width: 50%;
+}
+
+.input-control {
+  margin: 1rem 0;
+}
+
+.input-control label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.input-control input {
+  width: 100%;
+  padding: 0.3rem 0.5rem;
+  font-size: 1.3rem;
+  border: #444 1px solid;
+  border-radius: 0;
+}
+
+.input-control input::-webkit-input-placeholder {
+  opacity: 0.3;
+  letter-spacing: 1px;
+}
+
+.input-control input:-ms-input-placeholder {
+  opacity: 0.3;
+  letter-spacing: 1px;
+}
+
+.input-control input::-ms-input-placeholder {
+  opacity: 0.3;
+  letter-spacing: 1px;
+}
+
+.input-control input::placeholder {
+  opacity: 0.3;
+  letter-spacing: 1px;
+}
+
+.btn {
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 0.4rem 1rem;
+  background-color: #ff5858;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 800px) {
+  form {
+    width: 60%;
+  }
+}
+/*# sourceMappingURL=utils.css.map */
