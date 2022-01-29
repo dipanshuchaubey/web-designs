@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./css/main.css
+    "
+    />
+    <title>Software Agency | We Build Websites, Mobile Applications</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-body">
+        <h1>Software Agency</h1>
+
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="header">
+      <div class="container">
+        <h2>Software Agency</h2>
+
+        <p>
+          We make art like softwares and work together to design, create and
+          produce work that we are proud of for folks that we belive in. We are
+          available for hire in a wide range of creative disciplines for a
+          variety of jobs, projects and gigs.
+        </p>
+
+        <button id="check-more" class="btn shadow-sm mt-2">
+          Check Out More
+        </button>
+      </div>
+    </section>
+
+    <div class="container">
+      <!-- <div class="back-to-top">
+        <a href="#header"></a>
+      </div> -->
+
+      <section id="about" class="pt-2">
+        <h2>About Us</h2>
+
+        <div class="about-section">
+          <div class="about-content">
+            <ul>
+              <li><span>3000+</span> Satisfied Customers</li>
+              <li><span>10,000+</span> Employees</li>
+              <li><span>500+</span> Live Projects</li>
+              <li><span>70+</span> Offices Around The World</li>
+            </ul>
+          </div>
+
+          <div class="about-img">
+            <img src="./assets/about-team.webp" alt="Team" draggable="false" />
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="pt-2">
+        <h2>Our Plans</h2>
+
+        <div class="card-group mt-2">
+          <div class="card">
+            <h3>Starter</h3>
+
+            <h4>$0 <span>/ Month</span></h4>
+
+            <p>
+              Our starter plan is free for all. It is best option for getting a
+              taste of the product and if you like it you can easily migerate to
+              pro version.
+            </p>
+
+            <ul>
+              <li><span>2</span> Free Sites</li>
+              <li><span>10GB</span> Cloud Storage</li>
+              <li>Add upto <span>20 Users</span></li>
+              <li><span>10 GB</span> Bandwidth</li>
+              <li><span>1,000</span> API calls every month</li>
+            </ul>
+
+            <button class="btn shadow-sm">Select Plan</button>
+          </div>
+
+          <div class="card active">
+            <h3>Pro</h3>
+
+            <h4>$50 <span>/ Month</span></h4>
+
+            <p>
+              Our pro plan is the most cost effective plan in the industry. It
+              is best option for small to medium businesses. This plan can be
+              modified into pay as you scale plan.
+            </p>
+
+            <ul>
+              <li><span>100</span> Free Sites</li>
+              <li><span>100 GB</span> Cloud Storage</li>
+              <li>Add upto <span>100 Users</span></li>
+              <li><span>100GB</span> Bandwidth</li>
+              <li><span>100,000</span> API calls every month</li>
+              <li><span>24/7</span> Email Support</li>
+            </ul>
+
+            <button class="btn shadow-sm">Select Plan</button>
+          </div>
+
+          <div class="card">
+            <h3>Enterprise</h3>
+
+            <h4>$100 <span>/ Month</span></h4>
+
+            <p>
+              Our enterprise plan is for the businesses that require scale and
+              24/7 availabilty of services with support. It is best option for
+              industries with huge load of traffic and customers.
+            </p>
+
+            <ul>
+              <li><span>Unlimited</span> Free Sites</li>
+              <li><span>500 GB</span> Cloud Storage</li>
+              <li>Add upto <span>1000 Users</span></li>
+              <li><span>Unlimited </span> Bandwidth</li>
+              <li><span>10 Million</span> API calls every month</li>
+              <li><span>24/7</span> Chat, Email, Call Support</li>
+              <li>Dedicated Servers with CDN</li>
+            </ul>
+
+            <button class="btn shadow-sm">Select Plan</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="pt-2">
+        <h2>Connect With Us</h2>
+
+        <div class="contact-body mt-2">
+          <div class="img-section">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem
+              magni rerum incidunt quo id quis sunt officia, inventore
+              laboriosam beatae illo eligendi at corrupti quos fugiat
+              aspernatur? Quisquam, officia. Labore.
+            </p>
+          </div>
+
+          <div class="form-group">
+            <form>
+              <div class="input-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" />
+              </div>
+
+              <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" />
+              </div>
+
+              <div class="input-group">
+                <label for="message">Your Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+
+              <button class="btn btn-block shadow-sm">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <p>All Rights Reserved | &copy; Software Agency 2022</p>
+    </footer>
+  </body>
+
+  <script>
+    const next = document.getElementById('check-more');
+
+    next.addEventListener('click', e => (location.href = '#about'));
+  </script>
+</html>
