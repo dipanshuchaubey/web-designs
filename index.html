@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Localhost</title>
+  </head>
+  <body>
+    <h1>
+      Project.directory
+      <span class="braces">{</span>
+    </h1>
+
+    <div class="details">
+      <p>
+        Business Landing Page:
+        <span>
+          <a href="./aos" target="_blank">Live Site</a>
+        </span>
+      </p>
+      <p>
+        Business Card:
+        <span>
+          <a href="./card" target="_blank">Live Site</a>
+        </span>
+      </p>
+      <p>
+        Login Page:
+        <span>
+          <a href="./login-page" target="_blank">Live Site</a>
+        </span>
+      </p>
+      <p>
+        OTP Auth Page:
+        <span>
+          <a href="./otp-auth" target="_blank">Live Site</a>
+        </span>
+      </p>
+      <p>
+        Todo List:
+        <span>
+          <a href="./todo" target="_blank">Live Site</a>
+        </span>
+      </p>
+    </div>
+    <span class="braces">}</span>
+  </body>
+  <script>
+    var fs = require('fs');
+    var files = fs.readdirSync('./');
+
+    console.log(files);
+  </script>
+</html>
