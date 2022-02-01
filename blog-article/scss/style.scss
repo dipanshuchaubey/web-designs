@@ -1,0 +1,144 @@
+@font-face {
+  font-family: Alaska;
+  src: url('../fonts/alaska.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-size: 16px;
+  font-family: Alaska, sans-serif;
+  max-width: 1920px;
+  margin: auto;
+  background-color: rgb(245, 245, 255);
+}
+
+:focus {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  background: #fff;
+  width: 0.6vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 65%;
+  margin: auto;
+}
+
+#header,
+#content {
+  margin: 2rem 0;
+}
+
+#navbar {
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(34, 34, 34, 0.08);
+
+  ul {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-direction: row;
+  }
+
+  li {
+    margin: 0 0.2em;
+    padding: 0.7em 1em;
+    font-size: 1.1em;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 300ms ease-in;
+    cursor: pointer;
+  }
+
+  li:hover,
+  li:focus {
+    border-bottom: 3px solid rgb(19, 19, 165);
+  }
+}
+
+#header {
+  text-align: center;
+
+  .title {
+    font-weight: 900;
+    font-size: 3em;
+    color: blueviolet;
+  }
+
+  p {
+    letter-spacing: 2px;
+    margin: 0.7em 0;
+  }
+}
+
+#content {
+  line-height: 1.3em;
+
+  p {
+    margin: 1.5em 0;
+    font-size: 1.1em;
+    text-align: justify;
+    line-height: 1.5em;
+  }
+}
+
+#footer {
+  background: #fff;
+  box-shadow: 0px 0px 15px rgba(34, 34, 34, 0.08);
+  padding: 1.6em 0;
+
+  .socials {
+    text-align: center;
+    font-size: 1.1em;
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      margin: auto 0.5em;
+      display: inline-block;
+
+      a {
+        text-decoration: none;
+        color: blueviolet;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 90%;
+  }
+
+  #navbar {
+    li {
+      font-size: 0.9em;
+      margin: auto;
+      padding: 0;
+    }
+  }
+
+  #content p {
+    text-align: left;
+  }
+
+  #footer .socials li {
+    margin: auto 0.4em;
+  }
+}

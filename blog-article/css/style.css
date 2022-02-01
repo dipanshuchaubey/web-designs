@@ -1,0 +1,153 @@
+@font-face {
+  font-family: Alaska;
+  src: url("../fonts/alaska.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-size: 16px;
+  font-family: Alaska, sans-serif;
+  max-width: 1920px;
+  margin: auto;
+  background-color: #f5f5ff;
+}
+
+:focus {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  background: #fff;
+  width: 0.6vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 65%;
+  margin: auto;
+}
+
+#header,
+#content {
+  margin: 2rem 0;
+}
+
+#navbar {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 15px rgba(34, 34, 34, 0.08);
+          box-shadow: 0px 0px 15px rgba(34, 34, 34, 0.08);
+}
+
+#navbar ul {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#navbar li {
+  margin: 0 0.2em;
+  padding: 0.7em 1em;
+  font-size: 1.1em;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: border-bottom 300ms ease-in;
+  transition: border-bottom 300ms ease-in;
+  cursor: pointer;
+}
+
+#navbar li:hover,
+#navbar li:focus {
+  border-bottom: 3px solid #1313a5;
+}
+
+#header {
+  text-align: center;
+}
+
+#header .title {
+  font-weight: 900;
+  font-size: 3em;
+  color: blueviolet;
+}
+
+#header p {
+  letter-spacing: 2px;
+  margin: 0.7em 0;
+}
+
+#content {
+  line-height: 1.3em;
+}
+
+#content p {
+  margin: 1.5em 0;
+  font-size: 1.1em;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+#footer {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 15px rgba(34, 34, 34, 0.08);
+          box-shadow: 0px 0px 15px rgba(34, 34, 34, 0.08);
+  padding: 1.6em 0;
+}
+
+#footer .socials {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+#footer .socials ul {
+  list-style: none;
+}
+
+#footer .socials li {
+  margin: auto 0.5em;
+  display: inline-block;
+}
+
+#footer .socials li a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 90%;
+  }
+  #navbar li {
+    font-size: 0.9em;
+    margin: auto;
+    padding: 0;
+  }
+  #content p {
+    text-align: left;
+  }
+  #footer .socials li {
+    margin: auto 0.4em;
+  }
+}
+/*# sourceMappingURL=style.css.map */
